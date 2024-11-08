@@ -1,0 +1,52 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+.father{
+width: 200px;
+height:300px;
+background-color: rgb(118, 63, 178);
+display: flex; 
+justify-content:space-evenly ;
+align-items: center;
+}
+.father1{
+    /* ALINHAMENTO EIXO X  */
+    justify-content:space-evenly ;
+    /* ALINHAMENTO EIXO Y */
+/* START=LEFT */
+/* END= RIGTH */
+align-items: center;
+}
+.father2{
+gap: 20px;
+flex-wrap:wrap;
+flex-direction: row;
+}
+.son1{
+width: 30px;
+height: 30px;
+background-color: rgb(255, 127, 127);
+margin: 20PX;
+}
+
+.son2{
+width: 30px;
+height: 30px;
+background-color: aquamarine;
+}
+.son3{
+ width: 30px;
+   height: 30px; 
+background-color: rgb(127, 232, 255);
+}
+        
+.son4{
+width: 30px;
+height:30px;
+background-color: rgb(163, 255, 127);
+}
+
+
+                        

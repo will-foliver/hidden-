@@ -11,15 +11,10 @@
         width:100%;
         padding: 40px 20px;  
         background-color: aquamarine; 
-        color: rgb(191, 180, 165);
+        color: rgb(77, 63, 5);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    header h2{
-       float: left;
-       margin-left: 30px;
-    }
-    
+        text-align: center;
+    }    
     nav{ 
     float: right;
     margin-right: 20px;
@@ -47,9 +42,8 @@
     position: absolute;
     bottom: 0%;
     }
-    main{
+    main footer{
 text-align: center;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color:rgb(160, 97, 63)
-
-    }
+ }

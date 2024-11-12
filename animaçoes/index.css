@@ -1,0 +1,41 @@
+/* animaçao step by step */
+@keyframes teste{
+    
+}
+
+
+
+
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.caixa {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1{
+    background-color: aqua;
+    transition: 0.75s;
+}
+
+#caixa1:hover{
+    border-radius: 100%;
+}
+
+#caixa2:hover{
+    background-color: blueviolet;
+ 
+}
+
+#caixa3{
+    background-color: brown;
+    
+}

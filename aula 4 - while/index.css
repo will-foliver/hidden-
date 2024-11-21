@@ -1,0 +1,61 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+:root{
+    --corPrimaria: #22177A;
+    --corsecundaria: #80C4E9 ;
+    --branco:var(--branco)
+}
+
+
+
+header, footer{
+width: 100%;
+padding: 20px; 
+display: flex;
+justify-content: space-around;
+background-color:var(--corPrimaria);
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+#logo{
+display: flex;
+gap: 20px;
+}
+
+#logo img{
+width: 30px;
+}
+
+#catalogo{
+width: 80%;
+margin: 10px;
+background-color: var(--corsecundaria);
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.livro{
+width: 200px;
+padding: 5%;
+background-color: #22177A;
+display: flex;
+flex-direction: column;
+align-items: center
+gap 10px;
+border-radius:10px;
+text-align:center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.livro img{
+width: 80%;
+}

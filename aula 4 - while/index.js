@@ -13,11 +13,20 @@
 // //testes()
 
 function carregarcatalogo() {
-    for (let i = 0; i < 5; i++) {
+var livros = [
+['images/livros/fundaçao.jpg','fundaçao']
+
+]
+
+
+
+
+
+    livros.foreach (cadalivro =>{
         document.getElementById(`catalogo`).innerHTML += `
 <div class="livro">
-    <img src="image/fundaçao.jpg" alt="">
-    <h4>fundação</h4>
+    <img src="${cadalivro[0]}" alt="">
+    <h4>${cadalivro[1]}</h4>
     
     <button>
         adicionar

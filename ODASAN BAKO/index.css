@@ -1,0 +1,33 @@
+header{
+        background-color:#FFD2A0 ;
+        margin:auto;
+        padding: 30px;
+        text-align: center;
+        flex:auto;
+}
+
+.div1{
+margin: 100px;
+padding: 10px;
+text-align: left;
+}
+
+div{
+padding: 100px;
+margin: 500px;
+text-align: center;
+}
+
+nav{
+text-align: end;
+padding: 10px , 8px;
+}
+ 
+main{
+    width: 500px;
+    padding: 300px;
+    margin: 450px;
+    display: center;
+    background-color:#D91656;
+
+    }

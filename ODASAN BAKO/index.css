@@ -24,10 +24,11 @@ padding: 10px , 8px;
 }
  
 main{
-    width: 500px;
-    padding: 300px;
-    margin: 450px;
+    width: 800px ;
+    padding: 100px;
+    margin: 100px;
     display: center;
     background-color:#D91656;
-
-    }
+    border-radius: 15px;
+  
+}   

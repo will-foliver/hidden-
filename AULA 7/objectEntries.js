@@ -14,8 +14,11 @@ const filmesentries = object
 //map
 const nomesfilmes = ['Ilha do medo','Bruxa do blair','Interestelar','Velozes de furiosos']
 
-const = lista {
+const = lista {}
 
-
-    
-}
+const resultados = lista.jogos.map((elemento) => {
+document.querySelector('body').innerHTML += '
+<h3> ${elemento.nome} </h3>
+'
+} 
+)

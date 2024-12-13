@@ -1,0 +1,25 @@
+{
+    "usuario" :  
+    [
+        {
+            "nome" : "marta",
+            "cpf" : "9999999999",
+            "senha" : "1234",
+          "endereço" : "guara"
+        }
+,
+        {
+            "nome" : "bruce",
+            "cpf" : "777777777",
+            "senha" : "1234",
+          "endereço" : "nucleo bandeirante"
+        }
+,
+        {
+            "nome" : "gustavo",
+            "cpf" : "88888888",
+            "senha" : "1234",
+            "endereço" : "ceilandia"
+        }                                                                                                        
+    ]
+    }
